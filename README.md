@@ -1,5 +1,5 @@
 # student-performance-prediction
-Usage
+# Usage
 Run the Streamlit App
 To start the app, run the following command in your terminal:
 
@@ -8,13 +8,14 @@ Copy code
 streamlit run main.py
 This will start a Streamlit server, and you can view the app in your browser. The app will prompt you for the number of hours studied and the maximum marks, and it will predict the score based on the provided input.
 
-Input Fields:
+# Input Fields:
 Hours Studied: Enter the number of hours a student has studied. The valid range is from 0.0 to 10.0 hours.
 Maximum Marks: Enter the maximum marks available for the exam. This can be set between 1 and 1000.
 Output:
 Once the user inputs the values and presses the "Predict Score" button, the app will display the predicted score along with the maximum marks.
 
-Model Explanation
+
+# Model Explanation
 Polynomial Regression
 The model is built using polynomial regression and Ridge regression:
 
